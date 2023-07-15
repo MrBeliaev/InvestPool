@@ -1,0 +1,55 @@
+{
+    "managerAddress": "0xd150136e62a20ea650aee07b369877c02823eba0",
+    "signerAddress": "0xd150136e62a20ea650aee07b369877c02823eba0",
+    "fundrisingWallet": "0xB788F5fE0Aa2169DCD3a70D2ba80447Fb85f2C26",
+    "baseFee": 5,
+    "price": 110,
+    "maxAmountToSell": "1200000000000000000000",
+    "roles": [
+        {
+            "roleNumber": 0,
+            "isExist": true,
+            "maxAmount": "100000000000000000000",
+            "minAmount": 0
+        },
+        {
+            "roleNumber": 1,
+            "isExist": true,
+            "maxAmount": "500000000000000000000",
+            "minAmount": 0
+        },
+        {
+            "roleNumber": 2,
+            "isExist": true,
+            "maxAmount": "1000000000000000000000",
+            "minAmount": "500000000000000000000"
+        }
+    ],
+    "RoleSettingsSetter": [
+        {
+            "roleNumber": 0,
+            "startTime": 1000,
+            "deadline": 3000,
+            "roleFee": 20,
+            "maxAmountToSellForRole": "100000000000000000000"
+        },
+        {
+            "roleNumber": 1,
+            "startTime": 50,
+            "deadline": 1000,
+            "roleFee": 10,
+            "maxAmountToSellForRole": "600000000000000000000"
+        },
+        {
+            "roleNumber": 2,
+            "startTime": 50,
+            "deadline": 3000,
+            "roleFee": 0,
+            "maxAmountToSellForRole": "1500000000000000000000"
+        }
+    ],
+    "usdAddress": "0x975fCecf45129d10C6Fe57c4b91b7B662955B6e8",
+    "LPTokenAddress": "0x8ed0Ba9a6862Ad54a8bf9E3da0662EfDBaD34Fd1",
+    "RoleContract": "0xb3c93AbA1704864d062D3e88bDDfE9015907f36C",
+    "InvestPool": "0x43d97D00Ab3add2Be95DAf0424528C7383049aC6"
+}
